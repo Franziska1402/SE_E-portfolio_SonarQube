@@ -9,7 +9,14 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
+    id "jacoco"
     id "org.sonarqube" version "3.3"
+}
+
+jacocoTestReport {
+   reports {
+   xml.enabled true
+   }
 }
 
 sonarqube {
@@ -17,6 +24,7 @@ sonarqube {
     property "sonar.projectKey", "Franziska1402_SE_E-portfolio_SonarQube"
     property "sonar.organization", "franziska1402"
     property "sonar.host.url", "https://sonarcloud.io"
+    property "sonar.login", findProperty("APIKey") as String
   }
 }
 
