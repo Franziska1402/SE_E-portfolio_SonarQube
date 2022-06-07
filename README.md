@@ -2,6 +2,8 @@
 
 ![sonarQube logo](https://www.sonarqube.org/logos/index/logo-hero@2x.png)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Franziska1402_SE_E-portfolio_SonarQube&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Franziska1402_SE_E-portfolio_SonarQube)
+
 ## Table of content
 1. [Introduction](#introduction)
 2. [SonarQube](#sonarqube)
